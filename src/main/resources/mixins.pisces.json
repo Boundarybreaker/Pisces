@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "space.bbkr.pisces.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinChannelingEnchantment",
+    "MixinTridentEntity",
+    "MixinTridentItem"
+  ]
+}

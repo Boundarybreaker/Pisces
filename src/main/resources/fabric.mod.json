@@ -1,28 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "pisces",
   "version": "${version}",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
+  "name": "Pisces",
+  "icon": "assets/pisces/icon.png",
   "description": "Template for starting out Fabric mods",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/Boundarybreaker/Pisces"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "space.bbkr.pisces.Pisces"
     ]
   },
+  "accessWidener": "pisces.accesswidener",
   "mixins": [
-    "mixins.starter.json"
+    "mixins.pisces.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
-  },
-  "custom": {
-    "modmenu:api": true
   }
 }

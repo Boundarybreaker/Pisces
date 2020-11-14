@@ -1,5 +1,5 @@
 plugins {
-	id "fabric-loom" version "0.2.7-SNAPSHOT"
+	id "fabric-loom" version "0.5-SNAPSHOT"
 	id "maven-publish"
 	id "com.jfrog.artifactory" version "4.15.2"
 }
@@ -16,6 +16,7 @@ group = "${project.maven_group}"
 version = "${project.mod_version}+${project.minecraft_version}"
 
 minecraft {
+	accessWidener "src/main/resources/pisces.accesswidener"
 }
 
 repositories {
